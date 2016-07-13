@@ -1,0 +1,19 @@
+{
+  "name": "ambient-genuino-heartrate",
+  "version": "0.0.1",
+  "description": "Genuino 101と心拍センサーを使い、心拍数をBLE経由で[Ambient](https://ambidata.io)に送ってモニターするプログラムです。",
+  "main": "hrm-device.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Takehiko Shimojima",
+  "license": "MIT",
+  "dependencies": {
+    "ambient-lib": "^0.1.0",
+    "async": "^2.0.0-rc.6",
+    "noble-device": "^1.4.0"
+  }
+}
